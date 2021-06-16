@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+body{
+  background: linear-gradient(90deg,rgb(46, 150, 235),lightblue);
+  padding: 30px;
+}
+.cart{
+  width:300px;
+  height: 545px;
+  background-color: white;
+  text-align: center;
+  line-height: 200%;
+  border-radius: 10px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+}
+.content h6{
+    padding-top: 10px;
+}
+.bt{
+  width:95%;
+  height: 50px;
+  border-radius: 25px;
+  opacity: 0.7;
+}
+.bt:hover{
+  opacity: 1;
+}
+.cart:hover{
+  box-shadow: 1px 1px 1px 1px;
+  transform: translate(0,10px);
+}
+
